@@ -5,7 +5,7 @@
       "appLocation": ".",
       "outputLocation": "dist",
       "appBuildCommand": "npm run build --if-present",
-      "run": "npm start",
+      "run": "npm i -g @pwabuilder/cli",
       "appDevserverUrl": "http://localhost:3000"
     }
   }
