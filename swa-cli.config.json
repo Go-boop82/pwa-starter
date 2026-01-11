@@ -4,7 +4,7 @@
     "pwa-starter": {
       "appLocation": ".",
       "outputLocation": "dist",
-      "appBuildCommand": ",
+      "appBuildCommand": "build",
       "appDevserverUrl": "http://localhost:3000"
     }
   }
