@@ -3,14 +3,12 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>PWA Starter</title>
+  <title>ModWheels</title>
    
 
 
   <base href="/" />
-pwa create
-pwa start 
-generateSW
+
 
   <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
   <meta name="viewport"
@@ -22,7 +20,7 @@ generateSW
 
   <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="PWA Starter" />
+  <meta name="apple-mobile-web-app-title" content="ModWheels" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
   npm i -g @pwabuilder/cli
@@ -55,8 +53,8 @@ generateSW
 
   <script>
     if ('serviceWorker' in navigator) {
-      window.onload = () => {
-        navigator.serviceWorker.register(
+      window.onload = (generateSW) => {
+        navigator.serviceWorker.register(generateSW
           '/sw.js'
         );
       }
