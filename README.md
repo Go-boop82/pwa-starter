@@ -6,7 +6,8 @@ The PWABuilder pwa-starter is our opinionated, best practices, production tested
 
 ## Jump Right In
 
-Install the PWABuilder CLI:
+Install the PWABuilder CLI:h: cd pwa-startermodwheels
+
 
 `npm i -g @pwabuilder/cli`
 
